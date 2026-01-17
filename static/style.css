@@ -1,0 +1,29 @@
+.gemini-text{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 200% auto;
+    font-family: Arial,Helvetica Neue, sans-serif;
+
+    -webkit-background-clip: text;
+    background-clip: text; /* added this one */
+    -webkit-text-fill-color: transparent;
+    animation: gemini-text 5s ease infinite;
+}
+
+@keyframes gemini-text{
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+button{
+    background-image: linear-gradient(to top, rgba(179, 0, 0, 0.84), rgba(255, 165, 0, 0.8));
+}
+
+
