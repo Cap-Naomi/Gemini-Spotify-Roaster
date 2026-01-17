@@ -1,0 +1,41 @@
+html{
+    background: #2b3035;
+    color: #e9ebed;
+    font-family: Arial, Helvetica Neue, sans-serif;
+
+    h1{
+        font-size: 50px;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    h2{
+        text-align: justify;
+        padding-left: 30%;
+        line-height: 10px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: darkorange;
+    }
+
+    p{
+        font-size: 20px;
+        width: 40%; /* 50% */
+        text-align: justify;
+        padding-left: 30%; /* 25%  */
+        line-height: 1.4;
+
+    }
+
+    .fire-icon {
+        fill: url("#Gradient");
+    }
+    .stop1 {
+      stop-color: #ffc400;
+    }
+    .stop2 {
+      stop-color: #fd0001;
+    }
+
+}
